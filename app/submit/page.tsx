@@ -55,17 +55,6 @@ export default function SubmitGamePage() {
             <p className="text-center text-sm text-muted-foreground md:text-left">
               &copy; {new Date().getFullYear()} AI Miniclip. All rights reserved.
             </p>
-            <div className="flex gap-4">
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
-                About
-              </Link>
-              <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground">
-                Terms
-              </Link>
-              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">
-                Privacy
-              </Link>
-            </div>
           </div>
         </div>
       </footer>

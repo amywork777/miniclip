@@ -87,17 +87,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             <p className="text-center text-sm text-muted-foreground md:text-left retro-font-text">
               &copy; {new Date().getFullYear()} AI Miniclip. All rights reserved.
             </p>
-            <div className="flex gap-4">
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                About
-              </Link>
-              <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                Terms
-              </Link>
-              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                Privacy
-              </Link>
-            </div>
           </div>
         </div>
       </footer>

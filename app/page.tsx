@@ -97,15 +97,6 @@ export default async function HomePage({
               <Button variant="outline" size="sm" asChild className="retro-button">
                 <Link href="/submit">Submit Game</Link>
               </Button>
-              <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                About
-              </Link>
-              <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                Terms
-              </Link>
-              <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
-                Privacy
-              </Link>
               <Link href="/admin/login" className="text-sm text-muted-foreground hover:text-foreground retro-font-text">
                 Admin
               </Link>
